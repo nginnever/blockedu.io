@@ -1,0 +1,50 @@
+Decentralized Insitution
+
+- No Unnecessary Fees
+- Non-profit business model
+- Uncensorable course material
+- Community driven
+- Freedom to choose
+
+Records and Reputation
+
+- Privately owned encrypted records
+- Students choose who to share with
+- Public reputation for teachers
+- 
+
+Flexible Courses
+
+- Small class sizes optional
+- Customizable curriculum
+- Tailored for all learning types
+
+International
+
+- Not limited to English speaking students
+- Global teachers and students
+
+
+
+------------------------------------------
+
+Distributed Tech Stack
+
+- Built with the latest web 3.0 Innovtions
+
+IPFS
+
+- Permanent content addressed course material
+
+Ethereum
+
+- Blockchain based payment processing
+- immutable decentralized authority
+- Smart Contract based reputation (Uport)
+
+Storj
+
+- Redudant course material backups
+- Fully encrypted records
+- Provably retreivable
+- Decentralized storage model
