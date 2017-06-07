@@ -31,7 +31,7 @@ International and Local
 
 Distributed Tech Stack
 
-- Built with the latest web 3.0 Innovations
+- Built with the latest web 3.0 technologies
 
 IPFS
 
@@ -41,10 +41,10 @@ Ethereum
 
 - Blockchain based payment processing
 - immutable decentralized authority
-- Smart Contract based reputation (Uport)
+- Smart contract based reputation (Uport)
 
 Storj
 
 - Redundant course material backups
 - Fully encrypted records
-- Provably retrievable decentralized storage model
+- Provably retrievable information
