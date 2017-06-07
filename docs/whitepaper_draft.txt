@@ -8,7 +8,57 @@ Nathan Ginnever
 
 Abstract
 
-BlockEDU is an alternative education platform where Distributed Open Collaborative Courses (DOCC), Small Private Online Course (SPOC), and institution free traditional Massive Open Online Courses (MOOC) or online universites can be explored. The goal of BlockEDU is to solve some of the apparent issues with current online or offline courses in a way that makes quality and reputable education affordable and accessible to all. BlockEDU will offer the ability for anyone to create custom courses or structure degree programs that conform to current academic paths.
+BlockEDU is an alternative education platform where Distributed Open Collaborative Courses (DOCC), Small Private Online Course (SPOC), and institution free traditional Massive Open Online Courses (MOOC) or online universites can be explored. The goal of BlockEDU is to solve some of the apparent issues with current online or offline courses in a way that makes quality and reputable education affordable and accessible to all. BlockEDU will offer the ability for anyone to create custom courses or structure degree programs that conform to current academic paths. BlockEDU will remain an uncontrolled non-profit that has no ability to impose any fees on students or educators. 
 
 1 Introduction
+
+Alternative forms of education enabled by the web have become a popular industry in the past decade as students face increasing tutuion rates and the inablity to afford traditional universities. Current instutions have too many auxilary fees that don't benefit the student such as atheletic and adminsistrative fees. With MOOCs you do not need to be geographically close to your institution of learning. As long as the acedemic community has an internet connection and a cursory knowledge of technology they may connect with each other to advance knowledge. Institutions such as Udacity, edX, and Coursera have seen tremendus success as a perhaps viable way of spreading mass education at an affordable price. They promise to offer affordable and accessible information to those who otherwise would not have had a chance to learn. They project themselves toward Goal 4 of the 2030 Agenda for Sustainable Development where the UN has envisioned a way to ensure inclusive and quality education for all and promote lifelong learning.
+
+1.1 Perceived Problems
+
+However, just as there are weaknesses inheret in the current web such as centralization, broken information links, and privacy concerns, there are weaknesses in the current online education systems provided by centralized organizations. Organizations that once started with a non-profit business model have inevietably moved towards instutionalization and profit. 
+
+The ability to use the web to generate mass profit from the crowd is potentially one of the largest weaknesses presented by traditional MOOCs. There is a lack of small class sizes that cater to all types of learning. Without the ablility to create personal interactions between educators and students there are large incompletion rates and only a select few that will succeed from MOOCs. Others will drop off and lose money to a for-profit institution. Large class sizes also limit the ability of the educator to learn better ways of structuring their courses in the future. Personal feedback is a valubale resource for both educator and student.
+
+MOOCs lack a flexibilty that allows the community to decide how coureses should be structured. Some Universities have expressed concern that the massive nature of MOOCs or the need for those involved to understand technology or a lack of a stong sequenced structure makes them unacceptable. They often forget about foreign language speakers and only cater to English as they are not able to coordinate on a local level.
+
+
+
+1.2 Proposed Solution
+
+BlockEDU puts forth an idea that using decentralized technologies can enforce a non-profit model that is self sustaining. Peer-to-peer education will ensure that the community always forms the organization. There will be no centralized authority to dictate how a course should be sized, scheduled, or monetized. Each community member will have the ability to use a system permentaly printed in an immutable ledger that was once used only for financial transactions. Auxilaray p2p systems will offset some the of the costs associated with "blockchains". Privacy and a lack of cencorship are built in to the systems used so that courses will never be limited to the constructs of a few, but rather molded by the masses. Just as massive course structures will be possible so will small localized communites. Ultmately the members of this community get to determine where they belong and what works best for them.
+
+2. Design
+
+BlockEDU will use a combination of the most applicalble decentralized technologies. As these technolgies come into being and work out their growing pains blockEDU will retain the ability to shift its underlying tech stack to that of the best suited. We will begin creating the system by using what is currently available as of the time of writing this whitepaper draft.
+
+2.1 Overview
+
+2.2 Ethereum
+
+Blockchains offer a payment system that is decentralized so that direct payments can be made from educator to student. This helps to disincentivize blockEDU from taking a profit from the system as it has no ability to do so. Smart contracts will be used to generate a payment processor. They will also be used as an immutable database of pointers to the advertisement of upcoming courses. These pointers will ensure that course material remains open and free for all to access at any point in time after their upload to blockEDU. Those who choose to not pay for classed or participate in the course will not be graded or receive feedback, but they will always be able to learn from the course in the future much like MIT opencourses are published to the public.
+
+2.2.1 Payments
+
+Blockchains do one thing well (sometimes) at the current time of writing this. They are a form of decentralized payment processing.
+
+2.2.2 Reputation
+
+2.2.3 Immutable Database
+
+
+2.3 IPFS
+
+2.3.1 Immutable data pointers
+
+2.4 Storj
+
+2.4.1 Provably retrivable records
+
+2.4.2 Records controlled by students
+
+
+3. Access
+
+Not everyone can be expected to be able to understand or use peer-to-peer technologies in their current state. A non-profit organaztion will be formed to help address this problem. There is no traditional business model to sustain this so alternatives will be explored. From selling t-shirts and taking donations to distributions of organizationed owned ERC20 tokens.
 
