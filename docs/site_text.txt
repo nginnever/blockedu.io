@@ -1,4 +1,4 @@
-Decentralized Insitution
+Decentralized Institution
 
 - No Unnecessary Fees
 - Non-profit business model
@@ -30,7 +30,7 @@ International
 
 Distributed Tech Stack
 
-- Built with the latest web 3.0 Innovtions
+- Built with the latest web 3.0 Innovations
 
 IPFS
 
@@ -44,7 +44,7 @@ Ethereum
 
 Storj
 
-- Redudant course material backups
+- Redundant course material backups
 - Fully encrypted records
-- Provably retreivable
+- Provably retrievable
 - Decentralized storage model
