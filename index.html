@@ -1,512 +1,87 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
-<!-- CSS -->
-<!--   <link rel="stylesheet" type="text/css" href="css/style.css" /> -->
-
-<!-- JS -->
-<script type="text/javascript" src="js/jquery_min.js"></script>
-<script type="text/javascript" src="js/functions.js" ></script>
-
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
-}
-
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  position: relative;
-  opacity: 0.85;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-.bgimg-1 {
-  background-image: url("http://wallpapershome.com/images/wallpapers/earth-7251x4018-planet-space-10121.jpg");
-  min-height: 100%;
-}
-
-.bgimg-2 {
-  background-image: url("http://www.aialabama.com/wordpress/wp-content/uploads/2016/01/education_button2.jpg");
-  min-height: 400px;
-}
-
-.bgimg-3 {
-  background-image: url("https://www.healthcore.com/wp-content/uploads/2015/04/academiaSlide01.jpg");
-  min-height: 400px;
-}
-
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
-
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-}
-
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
-}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
-        background-attachment: scroll;
-    }
-}
-
-/* Start of Column CSS */
-#container4 {
-  clear:left;
-  float:left;
-  width:100%;
-  overflow:hidden;
-  background:#012b7f; /* column 4 background colour */
-}
-#container3 {
-  clear:left;
-  float:left;
-  width:100%;
-  position:relative;
-  right:25%;
-  background:#0193fe; /* column 3 background colour */
-}
-#container2 {
-  clear:left;
-  float:left;
-  width:100%;
-  position:relative;
-  right:25%;
-  background:#5dd3e9; /* column 2 background colour */
-}
-#container1 {
-  float:left;
-  width:100%;
-  position:relative;
-  right:25%;
-  background:#A6A6A6; /* column 1 background colour */
-}
-#col1 {
-  float:left;
-  width:21%;
-  position:relative;
-  left:77%;
-  overflow:hidden;
-}
-#col2 {
-  float:left;
-  width:21%;
-  position:relative;
-  left:81%;
-  overflow:hidden;
-}
-#col3 {
-  float:left;
-  width:21%;
-  position:relative;
-  left:85%;
-  overflow:hidden;
-}
-#col4 {
-  float:left;
-  width:21%;
-  position:relative;
-  left:89%;
-  overflow:hidden;
-}
-
-/* Start of popup CSS */
-.master_wrapper {
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-  box-sizing:border-box;
-  padding-top:40px
-}
-
-.popup {
-  display:none;
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  z-index:100
-}
-
-.popup .popup_overlay {
-  position:fixed;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  z-index:101
-}
-
-.popup .popup_wrapper {
-  border:1px solid #ede1b2;
-  animation-name:popup_appear;
-  animation-duration:250ms;
-  animation-timing-function:ease-out;
-  animation-delay:0;
-  animation-iteration-count:1;
-  animation-direction:normal;
-  animation-fill-mode:forwards;animation-play-state:running;
-  -webkit-animation-name:popup_appear;
-  -webkit-animation-duration:250ms;
-  -webkit-animation-timing-function:ease-out;
-  -webkit-animation-delay:0;
-  -webkit-animation-iteration-count:1;
-  -webkit-animation-direction:normal;
-  -webkit-animation-fill-mode:forwards;
-  -webkit-animation-play-state:running;
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-  box-sizing:border-box;z-index:102;
-  text-align:left;display:inline-block;
-  top:108px;
-  left:50%;
-  width:500px;
-  margin-left:-250px;
-  position:fixed;background-color:#1b152a;
-  background-image:url(../images/popup.jpg);
-  background-repeat:no-repeat;
-  background-position:center top;
-  background-size:500px 400px;
-  padding:35px 50px 35px 140px;
-  box-shadow:0 28px 40px -10px #0c0e23
-}
-
-@media only screen and (min--moz-device-pixel-ratio:1.5),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5)
-{
-  .popup .popup_wrapper {
-    background-image:url(../images/popup@2x.jpg)
-  }
-}
-          
-.popup .popup_wrapper .popup_close {
-  position:absolute;
-  top:5px;
-  right:5px;
-  cursor:pointer;
-  width:25px;
-  height:25px;
-  background-color:transparent;
-  background-image:url(../images/popup_close@2x.png);
-  background-repeat:no-repeat;
-  background-position:center center;
-  background-size:15px 15px
-}
-
-.popup .popup_wrapper .popup_close:hover {
-  background-color:#bf1929
-}
-
-.popup .popup_wrapper .lead_information {
-  margin-bottom:30px;
-  padding-left:29px
-}
-
-.popup .popup_wrapper ul {
-  list-style-type:none
-}
-
-.popup .popup_wrapper ul li {
-  position:relative;
-  margin-bottom:15px;
-  padding-left:29px
-}
-
-.popup .popup_wrapper ul li:last-child {
-  margin-bottom:0
-}
-
-.popup .popup_wrapper ul li .milestone {
-  width:20px;
-  height:20px;
-  border-radius:50%;
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-  box-sizing:border-box;
-  border:1px solid #ede1b2;
-  position:absolute;
-  top:0;
-  left:0;
-  font-size:12px;
-  line-height:18px;
-  text-align:center;
-  background:#1b152a;
-  color:#ede1b2
-}
-
-.popup_appear_core 0% {
-  -webkit-transform:scale(.65);
-  transform:scale(.65)
-}
-
-.popup_appear_core 100% {
-  -webkit-transform:scale(1);
-  transform:scale(1)
-}
-
-@-webkit-keyframes popup_appear {
-  0% {
-    -webkit-transform:scale(.65);
-    transform:scale(.65)
-  }
-  100% {
-    -webkit-transform:scale(1);
-    transform:scale(1)
-  }
-}
-
-@keyframes popup_appear {
-  0% {
-    -webkit-transform:scale(.65);
-    transform:scale(.65)
-  }
-  100% {
-    -webkit-transform:scale(1);
-    transform:scale(1)
-  }
-}
-
-@media (max-width:760px) {
-  body {
-    min-width:initial;
-    min-height:initial;
-    background:url(../images/background_mobile.jpg) center top no-repeat #000;
-    background-size:cover;padding:0 15px 30px}.master_wrapper{width:initial;
-    padding-top:20px
-  }
-  .logo {
-    width:110px;
-    font-size:13px;
-    letter-spacing:1.1px;
-    padding-top:29px;
-    margin-bottom:20px
-  }
-  .claim_wrapper {
-    padding:0;
-    margin-bottom:30px;
-    border:none
-  }
-  .claim_wrapper h1 {
-    font-size:30px;
-    line-height:31px;
-    letter-spacing:3px;
-    border-top:1px solid #fff;
-    border-bottom:1px solid #fff;
-    padding:20px 0
-  }
-  .claim_wrapper h2 {
-    font-size:21px;
-    max-width:250px;
-    margin-left:auto;
-    margin-right:auto
-  }
-  .claim_wrapper p {
-    font-size:15px;
-    max-width:250px
-  }
-  .vertical_delimiter {
-    display:none
-  }
-  .input_wrapper {
-    background:0 0;
-    margin:0 auto 30px;
-    padding:0;
-    width:initial;
-    height:initial
-  }
-  .input_wrapper input[type=submit],.input_wrapper input[type=email] {
-    width:100%;
-    height:42px;
-    display:block;
-    border-radius:4px;
-    font-size:18px
-  }
-  .input_wrapper input[type=email] {
-    border:1px solid #fff;
-    -moz-box-sizing:border-box;
-    -webkit-box-sizing:border-box;
-    box-sizing:border-box;
-    background:rgba(0,0,0,.7);
-    margin-bottom:15px;
-    padding:0 10px;
-    line-height:40px;
-    text-align:center
-  }
-  .input_wrapper input[type=submit] {
-    line-height:42px;
-    background:-webkit-linear-gradient(#ff7e00,#d83a09);
-    background:linear-gradient(#ff7e00,#d83a09);
-    box-shadow:0 2px 3px 0 rgba(0,0,0,.4)
-  }
-  .input_wrapper input[type=submit]:hover {
-    background:-webkit-linear-gradient(#ff9734,#d83a09);
-    background:linear-gradient(#ff9734,#d83a09)
-  }
-  .popup .popup_wrapper {
-    padding:0 15px;
-    width:100%;
-    -moz-box-sizing:border-box;
-    -webkit-box-sizing:border-box;
-    box-sizing:border-box;
-    background:0 0;
-    border:none;
-    left:0;
-    top:86px;
-    margin-left:0;
-    box-shadow:none
-  }
-  .popup .popup_wrapper .popup_mobile_correction {
-    box-shadow:0 4px 16px 2px rgba(12,14,35,.7);
-    -moz-box-sizing:border-box;
-    -webkit-box-sizing:border-box;
-    box-sizing:border-box;
-    position:relative;
-    width:100%;
-    border:1px solid #ede1b2;padding:25px;
-    background:#000
-  }
-  .popup .popup_wrapper .popup_mobile_correction .lead_information {
-    margin-bottom:25px;
-    padding-left:0
-  }
-  .popup .popup_wrapper .popup_mobile_correction ul li .milestone {
-    background:0 0
-  }
-}
-
-/* --> */
-
-</style>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- JS -->
+  <script type="text/javascript" src="js/jquery_min.js"></script>
+  <script type="text/javascript" src="js/functions.js"></script>
 </head>
+
 <body>
-
-<div class="bgimg-1">
-  <div class="caption">
-    <span class="border">BlockEDU ICO Coming Soon</span>
+  <div class="bgimg-1">
+    <div class="caption">
+      <span class="border">BlockEDU ICO Coming Soon</span>
+    </div>
   </div>
-</div>
 
-<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-  <h3 style="text-align:center;">What is BlockEDU?</h3>
-  <p>BlockEDU is an alternative education platform where Distributed Open Collaborative Courses (DOCC), Small Private Online Course (SPOC), and institution free traditional Massive Open Online Courses (MOOC) or online universites can be explored.  The goal of BlockEDU is to make quality and reputable education affordable for all.  BlockEDU will offer the ability for anyone to create custom courses or structure degree programs that conform to current academic paths.</p>
-</div>
-
-<div class="bgimg-2">
-  <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 style="text-align:center;" class="sub-title">What is BlockEDU?</h3>
+    <p>BlockEDU is an alternative education platform where Distributed Open Collaborative Courses (DOCC), Small Private Online Course (SPOC), and institution free traditional Massive Open Online Courses (MOOC) or online universites can be explored. The goal of BlockEDU is to make quality and reputable education affordable for all. BlockEDU will offer the ability for anyone to create custom courses or structure degree programs that conform to current academic paths.</p>
   </div>
-</div>
-
-<div style="position:relative;">
-  <div style="color:#fff;background-color:#282E34;text-align:center;padding:165px 80px;text-align: center;">
-
-    <div id="container4" style="margin-top: -80px;">
-      <div id="container3">
-        <div id="container2">
-          <div id="container1">
-            <div id="col1">
-              <!-- Column one start -->
-              <h2>Decentralized Zero Fee Institution</h2>
-              <!-- Column one end -->
-            </div>
-            <div id="col2">
-              <!-- Column two start -->
-              <h2>Permanent Records & Reputation</h2>
-              <!-- Column two end -->
-            </div>
-            <div id="col3">
-              <!-- Column three start -->
-              <h2>Flexible Course Sizes and Tailored Curriculum</h2>
-              <!-- Column three end -->
-            </div>
-            <div id="col4">
-              <!-- Column four start -->
-              <h2>International Languages</h2>
-              <!-- Column four end -->
-            </div>
-          </div>
+  <div class="bgimg-2">
+    <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+    </div>
+  </div>
+  <div style="position:relative;">
+    <div class="container container--large-points">
+      <div class="row row--large-points">
+        <div class="three columns light-grey large-point">
+          <h4>Decentralized Zero Fee Institution</h4>
+        </div>
+        <div class="three columns light-turq large-point">
+          <h4>Permanent Records & Reputation</h4>
+        </div>
+        <div class="three columns light-blue large-point">
+          <h4>Flexible Course Sizes & Tailored Curriculum</h4>
+        </div>
+        <div class="three columns blue large-point">
+          <h4>International Languages</h4>
         </div>
       </div>
     </div>
-
   </div>
-</div>
-
-<div class="bgimg-3">
-  <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  <div class="bgimg-3">
+    <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+    </div>
   </div>
-</div>
-
-<div style="position:relative;">
-  <div style="color:#fff;background-color:#282E34;text-align:center;padding:150px 80px;text-align: center;">
-
-    <div id="container4" style="margin-top: -55px;">
-      <div id="container3">
-        <div id="container2">
-          <div id="container1">
-            <div id="col1">
-              <!-- Column one start -->
-              <h2>Distributed Technology Stack</h2>
-              <!-- Column one end -->
-            </div>
-            <div id="col2">
-              <!-- Column two start -->
-              <h2>IPFS Content Addressing</h2>
-              <!-- Column two end -->
-            </div>
-            <div id="col3">
-              <!-- Column three start -->
-              <h2>Ethereum Payment Processing</h2>
-              <!-- Column three end -->
-            </div>
-            <div id="col4">
-              <!-- Column four start -->
-              <h2>Storj Redundant Record Backups</h2>
-              <!-- Column four end -->
-            </div>
-          </div>
+  <div style="position:relative;">
+    <div class="container container--large-points">
+      <div class="row row--large-points">
+        <div class="three columns light-grey large-point">
+          <h4>Distributed Technology Stack</h4>
+        </div>
+        <div class="three columns light-turq large-point">
+          <h4>IPFS Content Addressing</h4>
+        </div>
+        <div class="three columns light-blue large-point">
+          <h4>Ethereum Payment Processing</h4>
+        </div>
+        <div class="three columns blue large-point">
+          <h4>Storj Redundant Record Backups</h4>
         </div>
       </div>
     </div>
-
   </div>
-</div>
 
-<div class="bgimg-1">
-  <div class="caption">
-    <p style="color: #ffffff; font-size: 18px;">We respect your privacy. E-mail addresses will only be used to notify you once we reach <span class="popup_1_show" style="color:#f44242">one of our five milestones.</span></p>
-    <span class="border">Notify Me</span>
+  <div class="bgimg-1">
+    <div class="caption">
+      <p style="color: #ffffff; font-size: 18px;">We respect your privacy. E-mail addresses will only be used to notify you once we reach <span class="popup_1_show" style="color:#f44242">one of our five milestones.</span></p>
+      <div class="notify-button">Notify Me</div>
+    </div>
   </div>
-</div>
 
-<div class="master_wrapper">
+  <div class="master_wrapper">
     <div class="popup" id="popup_1">
       <div class="popup_overlay popup_1_hide"></div>
       <div class="popup_wrapper">
         <div class="popup_mobile_correction">
-          <div class="popup_close popup_1_hide" title="Close popup" ></div>       
+          <div class="popup_close popup_1_hide" title="Close popup"></div>
           <div class="lead_information">
             <p>We will only send you the email to inform you about following milestones:</p>
           </div>
@@ -536,6 +111,6 @@ h3 {
       </div>
     </div>
   </div>
-
 </body>
+
 </html>
