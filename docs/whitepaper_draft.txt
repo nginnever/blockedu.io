@@ -8,7 +8,7 @@ Nathan Ginnever
 
 Abstract
 
-BlockEDU is an alternative education platform where Distributed Open Collaborative Courses (DOCC), Small Private Online Course (SPOC), and institution free traditional Massive Open Online Courses (MOOC) or online universites can be explored. The goal of BlockEDU is to solve some of the apparent issues with current online or offline courses in a way that makes quality and reputable education affordable and accessible to all. BlockEDU will offer the ability for anyone to create custom courses or structure degree programs that conform to current academic paths. BlockEDU will remain an uncontrolled non-profit that has no ability to impose any fees on students or educators. 
+BlockEDU is an alternative education platform and free--and open source--course management system (CMS) where Distributed Open Collaborative Courses (DOCC), Small Private Online Course (SPOC), and institution free traditional Massive Open Online Courses (MOOC) or online universites can be explored. The goal of BlockEDU is to solve some of the apparent issues with current online or offline courses in a way that makes quality and reputable education affordable and accessible to all. BlockEDU will offer the ability for anyone to create custom courses or structure degree programs that conform to current academic paths. BlockEDU will remain an uncontrolled non-profit that has no ability to impose any fees on students or educators. 
 
 1 Introduction
 
@@ -25,6 +25,8 @@ MOOCs lack a flexibilty that allows the community to decide how coureses should 
 
 
 1.2 Proposed Solution
+
+While seeminly good ideas such as open edx exist, they are technically complicated to for educators to run and encourage profit to be driven to experts such as edx to set them up.
 
 BlockEDU puts forth an idea that using decentralized technologies can enforce a non-profit model that is self sustaining. Peer-to-peer education will ensure that the community always forms the organization. There will be no centralized authority to dictate how a course should be sized, scheduled, or monetized. Each community member will have the ability to use a system permentaly printed in an immutable ledger that was once used only for financial transactions. Auxilaray p2p systems will offset some the of the costs associated with "blockchains". Privacy and a lack of cencorship are built in to the systems used so that courses will never be limited to the constructs of a few, but rather molded by the masses. Just as massive course structures will be possible so will small localized communites. Ultmately the members of this community get to determine where they belong and what works best for them.
 
