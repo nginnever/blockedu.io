@@ -20,7 +20,7 @@ However, just as there are weaknesses inheret in the current web such as central
 
 The ability to use the web to generate mass profit from the crowd is potentially one of the largest weaknesses presented by traditional MOOCs. There is a lack of small class sizes that cater to all types of learning. Without the ablility to create personal interactions between educators and students there are large incompletion rates and only a select few that will succeed from MOOCs. Others will drop off and lose money to a for-profit institution. Large class sizes also limit the ability of the educator to learn better ways of structuring their courses in the future. Personal feedback is a valubale resource for both educator and student.
 
-MOOCs lack a flexibilty that allows the community to decide how coureses should be structured. Some Universities have expressed concern that the massive nature of MOOCs or the need for those involved to understand technology or a lack of a stong sequenced structure makes them unacceptable. They often forget about foreign language speakers and only cater to English as they are not able to coordinate on a local level.
+MOOCs lack a flexibilty that allows the community to decide how coureses should be structured. Some Universities have expressed concern that the massive nature of MOOCs or the need for those involved to understand technology or a lack of a stong sequenced structure makes them unacceptable. They often forget about foreign language speakers and only cater to English as they are not able to coordinate on a local level. These MOOC systems fail to explore the difficulties of relevance and knowledge transfer across boarders. 
 
 
 
@@ -60,5 +60,21 @@ Blockchains do one thing well (sometimes) at the current time of writing this. T
 
 3. Access
 
-Not everyone can be expected to be able to understand or use peer-to-peer technologies in their current state. A non-profit organaztion will be formed to help address this problem. There is no traditional business model to sustain this so alternatives will be explored. From selling t-shirts and taking donations to distributions of organizationed owned ERC20 tokens.
+Not everyone can be expected to be able to understand how to use peer-to-peer technologies in their current state. A non-profit organaztion will be formed to help address this problem. There is no traditional business model to sustain this so alternatives will be explored. From selling t-shirts and taking donations to distributions of organizationed owned ERC20 tokens.
+
+3.1 EDU Tokens
+
+Tokens will be used as the initial and limited continued funding model of this non-profit. The initial sale will be used to fund development to MVP. As all systems require maintainence the non-profit will hold an excess of tokens not sold for future sales to fund further improvements and development. 
+
+3.1.1 Total Supply
+
+An arbitrary total supply of 21 million has be chosen to pay omage to bitcoin. 
+
+3.1.2 Token Distribution Process
+
+A total of 4.2 Million EDU tokens will be offered in the ICO phase so that the organization may retain 80% of the total supply for future development. 
+
+A presale discount will be offered to large institutional and personal investors that wish to support blockEDU. A cap will be set at 2 Million EDU for the presale investors wishing to spend $30,000 or more.
+
+The remaining 
 
