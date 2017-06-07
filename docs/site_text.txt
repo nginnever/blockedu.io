@@ -10,14 +10,14 @@ Records and Reputation
 
 - Privately owned encrypted records
 - Students choose who to share with
-- Public reputation for teachers
+- Public reputation for course professionals
 - 
 
 Flexible Courses
 
-- Small class sizes optional
+- Small class sizes are optional
 - Customizable curriculum
-- Tailored for all learning types
+- Choose coursed tailored for your learning type
 
 International
 
@@ -46,5 +46,4 @@ Storj
 
 - Redundant course material backups
 - Fully encrypted records
-- Provably retrievable
-- Decentralized storage model
+- Provably retrievable decentralized storage model
