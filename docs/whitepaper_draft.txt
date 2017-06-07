@@ -1,0 +1,14 @@
+blockEDU
+
+A decentralized education system.
+
+June 7 2017
+
+Nathan Ginnever
+
+Abstract
+
+BlockEDU is an alternative education platform where Distributed Open Collaborative Courses (DOCC), Small Private Online Course (SPOC), and institution free traditional Massive Open Online Courses (MOOC) or online universites can be explored. The goal of BlockEDU is to solve some of the apparent issues with current online or offline courses in a way that makes quality and reputable education affordable and accessible to all. BlockEDU will offer the ability for anyone to create custom courses or structure degree programs that conform to current academic paths.
+
+1 Introduction
+
