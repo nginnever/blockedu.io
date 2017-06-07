@@ -4,7 +4,6 @@ Decentralized
 - Non-profit business model
 - Uncensorable course material
 - Knowledge as a social construct.
-- Freedom to choose
 
 Records and Reputation
 
@@ -15,10 +14,11 @@ Records and Reputation
 
 Flexibility
 
-- Small class sizes are possible
 - Customizable curriculum
-- Choose courses tailored to your learning type
+- Small class sizes are possible and chosen during creation
+- Students choose courses tailored to their learning type
 - Relevant feedback on non-multiple choice based exams
+- Enable teachers to adjust their beliefs about students
 
 International and Local
 
