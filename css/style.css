@@ -918,6 +918,14 @@ only screen and (min-device-pixel-ratio:1.5) {
   min-height: 400px;
 }
 
+.blockedu-summary {
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
 .caption {
   position: absolute;
   left: 0;
@@ -926,7 +934,8 @@ only screen and (min-device-pixel-ratio:1.5) {
   text-align: center;
 }
 
-.caption .notify-button, .caption span.border {
+.caption .notify-button,
+.caption span.border {
   background-color: #111;
   color: #fff;
   padding: 18px;
@@ -949,6 +958,7 @@ only screen and (min-device-pixel-ratio:1.5) {
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
   color: #111;
+  text-align: center;
 }
 
 
@@ -993,14 +1003,17 @@ only screen and (min-device-pixel-ratio:1.5) {
 
 .large-point {
   height: 300px;
-  padding: 1rem;
-  text-align: center;
+  padding: 2rem 0 1rem 1rem;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
   max-width: 350px;
   min-width: 350px;
   margin: 0;
+}
+
+.large-point--ul > li {
+  display: inline-block;
 }
 
 .popup_1_show:hover {
