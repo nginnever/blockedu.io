@@ -3,7 +3,7 @@
 var connect = require('connect');
 var serveStatic = require('serve-static');
 
-var port = process.env.NODE_ENV === 'development' ? 6001 : 80;
+var port = process.env.NODE_ENV === 'development' ? 6001 : 3000;
 
 connect()
   .use(serveStatic(__dirname))
