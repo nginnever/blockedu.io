@@ -65,7 +65,6 @@ html {
 .bgimg-2,
 .bgimg-3 {
   position: relative;
-  opacity: 0.85;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,6 +75,7 @@ html {
   background-image: url('../imgs/earth.jpg');
   /* source: "http://wallpapershome.com/images/wallpapers/earth-7251x4018-planet-space-10121.jpg" */
   min-height: 100%;
+  opacity: 0.90;
 }
 
 .bgimg-2 {
@@ -113,6 +113,7 @@ html {
 .blockEDU_logo {
   height: 320px;
   margin-top: -75px;
+  opacity: 1;
 }
 
 .blockedu-summary {
