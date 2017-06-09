@@ -112,6 +112,7 @@ html {
 
 .blockEDU_logo {
   height: 320px;
+  margin-top: -75px;
 }
 
 .blockedu-summary {
@@ -160,6 +161,7 @@ html {
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+  margin-top: 75px;
 }
 
 #mc_embed_signup .notify-button input,
@@ -327,3 +329,4 @@ Turn off parallax scrolling for tablets and phones
     background-attachment: scroll;
   }
 }
+
