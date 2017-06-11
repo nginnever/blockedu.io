@@ -9,6 +9,7 @@ html {
   background-color: #fff;
 }
 
+
 /* ------------------------
   Helpers
 ---------------------------
@@ -33,6 +34,11 @@ html {
   justify-content: center;
 }
 
+.v-center {
+  display: flex;
+  align-items: center;
+}
+
 
 /* ------------------------
   Colors
@@ -43,11 +49,11 @@ html {
   background-color: #012b7f;
 }
 
-.light-turq {
+.light-blue {
   background-color: #0193fe;
 }
 
-.light-blue {
+.light-turq {
   background-color: #5dd3e9;
 }
 
@@ -163,9 +169,36 @@ html {
   margin-left: -0.75rem;
 }
 
+.container--milestones {
+  color: #fff;
+  background-color: none;
+  text-align: center;
+  min-width: 100%;
+}
+
+.milestones, .notify-me {
+  background-color: #111;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.milestone {
+  height: 100px;
+  min-width: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0193fe;
+  margin: 10px;
+  padding: 1rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 .popup_1_show:hover {
   cursor: pointer;
 }
+
 
 /* ------------------------
   Email Signup
@@ -189,7 +222,7 @@ html {
 #mc_embed_signup .notify-button input,
 #mc_embed_signup #mce-EMAIL {
   text-transform: none;
-  border: none;
+  border: 1px solid #fff;
   width: 300px;
   margin: 0 auto;
   height: 65px;
@@ -210,6 +243,7 @@ html {
 
 #mc_embed_signup #mce-EMAIL {
   padding-left: 1.5rem;
+  color: #000;
 }
 
 #mc_embed_signup div.mce_inline_error {
@@ -222,7 +256,8 @@ html {
   box-sizing: border-box;
 }
 
-#mce-error-response, #mce-success-response {
+#mce-error-response,
+#mce-success-response {
   background-color: #fff;
   padding: 1rem;
   color: green;
