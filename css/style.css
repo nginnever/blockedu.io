@@ -195,11 +195,6 @@ html {
   box-sizing: border-box;
 }
 
-.popup_1_show:hover {
-  cursor: pointer;
-}
-
-
 /* ------------------------
   Email Signup
 ---------------------------
@@ -280,99 +275,6 @@ html {
   opacity: 0.85;
   cursor: pointer;
 }
-
-
-/* ------------------------
-  Popup CSS
----------------------------
-*/
-
-.master_wrapper {
-  width: 760px;
-  margin: 0 auto;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.popup {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 100
-}
-
-.popup .popup_overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 101
-}
-
-.popup .popup_wrapper {
-  animation-name: popup_appear;
-  animation-duration: 250ms;
-  animation-timing-function: ease-out;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: forwards;
-  animation-play-state: running;
-  -webkit-animation-name: popup_appear;
-  -webkit-animation-duration: 250ms;
-  -webkit-animation-timing-function: ease-out;
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation-direction: normal;
-  -webkit-animation-fill-mode: forwards;
-  -webkit-animation-play-state: running;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  text-align: left;
-  top: 108px;
-  left: 50%;
-  width: 500px;
-  margin-left: -250px;
-  position: fixed;
-  background-color: #528DC7;
-  padding: 35px 50px;
-  box-shadow: 0 28px 40px -10px #0c0e23;
-  opacity: 0.96;
-  color: #fff;
-}
-
-.popup .popup_wrapper .lead_information {
-  margin-bottom: 30px;
-  padding-left: 29px;
-  text-align: center;
-}
-
-.popup .popup_wrapper ul li {
-  margin-bottom: 15px;
-  padding-left: 29px;
-  display: flex;
-}
-
-.popup .popup_wrapper ul li .milestone {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  border: 1px solid #fff;
-  font-size: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 12.5px;
-}
-
-.popup_1_show:hover {
-  cursor: pointer;
-}
-
 
 /* ------------------------
 Turn off parallax scrolling for tablets and phones
