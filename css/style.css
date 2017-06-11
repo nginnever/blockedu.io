@@ -106,12 +106,12 @@ html {
   text-align: center;
 }
 
-.caption.caption_logo {
-  top: 28%;
-}
-
 .blockEDU_logo {
   height: 320px;
+}
+
+.caption.caption_logo {
+  top: 21%;
 }
 
 .blockedu-summary {
@@ -129,14 +129,38 @@ html {
 }
 
 .large-point {
-  height: 300px;
+  height: 260px;
   padding: 2rem 0 1rem 1rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   max-width: 350px;
   min-width: 350px;
   margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.large-point--title {
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.large-point--list {
+  padding: 0 1.5rem;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 4.5rem;
+}
+
+.large-point--list > li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.25em;
+  text-indent: -1.4em;
+}
+
+.large-point--list > li > span {
+  margin-left: -0.75rem;
 }
 
 .popup_1_show:hover {
